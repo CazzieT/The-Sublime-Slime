@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 0cc66c4f37fef40459b701ab9bc5f782
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2872816259808462885
+    second: Spindel animation_0
+  - first:
+      213: 5721771077960774742
+    second: Spindel animation_1
+  - first:
+      213: -2871884712151317572
+    second: Spindel animation_2
+  - first:
+      213: 1984111664663314231
+    second: Spindel animation_3
+  - first:
+      213: 614952345644818969
+    second: Spindel animation_4
+  - first:
+      213: -4842197501394883444
+    second: Spindel animation_5
+  - first:
+      213: 7015255410364272539
+    second: Spindel animation_6
+  - first:
+      213: -3234422935377583272
+    second: Spindel animation_7
+  - first:
+      213: -698619052691442425
+    second: Spindel animation_8
+  - first:
+      213: 2570598458822766230
+    second: Spindel animation_9
+  - first:
+      213: 6254113300166946530
+    second: Spindel animation_10
+  - first:
+      213: 8793320590447899153
+    second: Spindel animation_11
+  - first:
+      213: -3817147254862068359
+    second: Spindel animation_12
+  - first:
+      213: 7243428742311162373
+    second: Spindel animation_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +83,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,7 +109,31 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -77,7 +143,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spindel animation_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 304
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52889deda2b4ed720800000000000000
+      internalID: 2872816259808462885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 304
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b4fbea70d76f40800000000000000
+      internalID: 5721771077960774742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 304
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb38858f1140528d0800000000000000
+      internalID: -2871884712151317572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 304
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f37f6fb0bf88b10800000000000000
+      internalID: 1984111664663314231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 302
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912e3f376efb88800800000000000000
+      internalID: 614952345644818969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 215
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce21d070f0dccb0800000000000000
+      internalID: -4842197501394883444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 215
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f466790a13b5160800000000000000
+      internalID: 7015255410364272539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 215
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853617b1a750d13d0800000000000000
+      internalID: -3234422935377583272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_8
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 219
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705b10b4ca10e46f0800000000000000
+      internalID: -698619052691442425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 216
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e2c4ebda99ca320800000000000000
+      internalID: 2570598458822766230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee2f7929e21bc650800000000000000
+      internalID: 6254113300166946530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 124
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11276cdec76280a70800000000000000
+      internalID: 8793320590447899153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 128
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975c69abbc4c60bc0800000000000000
+      internalID: -3817147254862068359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spindel animation_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 130
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502bf455014d58460800000000000000
+      internalID: 7243428742311162373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
