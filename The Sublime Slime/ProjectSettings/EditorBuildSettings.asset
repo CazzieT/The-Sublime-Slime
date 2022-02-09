@@ -6,17 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Screens/start menu.unity
+    path: Assets/Levels/start menu.unity
     guid: c7b39ab627b473b40b3c825321f39f6b
-  - enabled: 0
-    path: Assets/Screens/settings menu.unity
+  - enabled: 1
+    path: Assets/Levels/settings menu.unity
     guid: 76cc5bf2418a60d46a3aaf902b14a22e
   - enabled: 1
     path: Assets/Levels/tutorial part 2.unity
     guid: be04525ab4f67d14f862dac7ae4a00ff
-  - enabled: 0
-    path: Assets/Screens/pause menu.unity
-    guid: a938fcf0f2146f64286bfe71a1acdcca
   - enabled: 1
     path: Assets/Levels/Main scene.unity
     guid: ea5db1b9f3afbb84092c7222bdc0ec74
