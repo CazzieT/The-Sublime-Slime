@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class red_button : MonoBehaviour
 {
+
+    bool pressed = false;
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +19,14 @@ public class red_button : MonoBehaviour
     void Update()
     {
         
+
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        pressed = true;
+        Destroy(gameObject);
     }
 }
+
