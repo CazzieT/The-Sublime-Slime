@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: d9757cdc1a6563948886dffb810335d0
+guid: 0f3e6456ad84843be905c7337c089115
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4961496462381311512
+    second: "spindeln\xE4t2_0"
+  - first:
+      213: 4746440491543997607
+    second: "spindeln\xE4t2_2"
+  - first:
+      213: 5440550233808418012
+    second: "spindeln\xE4t2_5"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +41,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,7 +110,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "spindeln\xE4t2_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 10
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8166892deb6cad440800000000000000
+      internalID: 4961496462381311512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "spindeln\xE4t2_2"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 12
+        width: 41
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca206ba7ebed140800000000000000
+      internalID: 4746440491543997607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "spindeln\xE4t2_5"
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 66
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4b1d4cc97b08b40800000000000000
+      internalID: 5440550233808418012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

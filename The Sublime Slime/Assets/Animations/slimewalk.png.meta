@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: a4edcec0eb1c04861bd1dc1a4dc5e191
+guid: f1edbaf8516604d619fa80778e2abb6b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2538277694755045426
-    second: flaska_0
+      213: -6865473164151663700
+    second: slimewalk_0
   - first:
-      213: -6337452759288024608
-    second: flaska_1
+      213: 2265940723142031260
+    second: slimewalk_1
   - first:
-      213: 7643988107986198411
-    second: flaska_2
+      213: -6060024178160803463
+    second: slimewalk_2
   - first:
-      213: -1932305753865413992
-    second: flaska_3
+      213: 6772622758940616058
+    second: slimewalk_3
   - first:
-      213: -6866765446120240903
-    second: flaska_4
+      213: -2939981075288905055
+    second: slimewalk_4
   - first:
-      213: -4642286349154053974
-    second: flaska_5
+      213: -2159131177102201910
+    second: slimewalk_5
+  - first:
+      213: -915932991572538969
+    second: slimewalk_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +88,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -97,19 +100,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -121,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flaska_0
+      name: slimewalk_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 142
-        width: 63
-        height: 94
+        x: 31
+        y: 228
+        width: 98
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2300c217d16c93320800000000000000
-      internalID: 2538277694755045426
+      spriteID: ca353c33880f8b0a0800000000000000
+      internalID: -6865473164151663700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaska_1
+      name: slimewalk_1
       rect:
         serializedVersion: 2
-        x: 97
-        y: 141
-        width: 63
-        height: 93
+        x: 232
+        y: 229
+        width: 96
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e171ddea48dc08a0800000000000000
-      internalID: -6337452759288024608
+      spriteID: c97f8fc051d327f10800000000000000
+      internalID: 2265940723142031260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaska_2
+      name: slimewalk_2
       rect:
         serializedVersion: 2
-        x: 183
-        y: 141
-        width: 63
-        height: 93
+        x: 411
+        y: 228
+        width: 91
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8fd3d34fa6e41a60800000000000000
-      internalID: 7643988107986198411
+      spriteID: 971627a0e1876eba0800000000000000
+      internalID: -6060024178160803463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaska_3
+      name: slimewalk_3
       rect:
         serializedVersion: 2
-        x: 10
-        y: 22
-        width: 63
-        height: 93
+        x: 35
+        y: 136
+        width: 94
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a986797221f25e0800000000000000
-      internalID: -1932305753865413992
+      spriteID: a75a16034803dfd50800000000000000
+      internalID: 6772622758940616058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaska_4
+      name: slimewalk_4
       rect:
         serializedVersion: 2
-        x: 97
-        y: 19
-        width: 63
-        height: 96
+        x: 231
+        y: 126
+        width: 97
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f8831c553954b0a0800000000000000
-      internalID: -6866765446120240903
+      spriteID: 1aaa809e9c61337d0800000000000000
+      internalID: -2939981075288905055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaska_5
+      name: slimewalk_5
       rect:
         serializedVersion: 2
-        x: 183
-        y: 19
-        width: 63
-        height: 96
+        x: 405
+        y: 127
+        width: 97
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +231,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa0170d4929439fb0800000000000000
-      internalID: -4642286349154053974
+      spriteID: acb2a5d42a93902e0800000000000000
+      internalID: -2159131177102201910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimewalk_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 46
+        width: 98
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a902470cc3f943f0800000000000000
+      internalID: -915932991572538969
       vertices: []
       indices: 
       edges: []
@@ -258,7 +270,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
