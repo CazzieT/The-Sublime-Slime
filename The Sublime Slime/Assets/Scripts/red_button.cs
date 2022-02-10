@@ -4,29 +4,31 @@ using UnityEngine;
 
 public class red_button : MonoBehaviour
 {
+    private bool prest = false;
+    public Animator animator;
+    public bool OpenAndClose = true;
 
-    bool pressed = false;
-    
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (GameObject.FindGameObjectWithTag("box"))
+        {
+            prest = true;
+            animator.SetTrigger("open");
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        
+        if (!OpenAndClose)
+            return;
 
-    }
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        pressed = true;
-        Destroy(gameObject);
+        if (GameObject.FindGameObjectWithTag("box"))
+        {
+            prest = false;
+            animator.SetTrigger("close");
+            Debug.Log("close");
+        }
     }
 }
 
