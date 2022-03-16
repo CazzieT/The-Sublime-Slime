@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6697633623401617299}
   - component: {fileID: 2894946404859109004}
   - component: {fileID: 5254620206133581798}
+  - component: {fileID: -8306617973432428523}
   m_Layer: 6
   m_Name: "\xF6ga"
   m_TagString: box
@@ -121,3 +122,15 @@ CircleCollider2D:
   m_Offset: {x: 0.21790552, y: -0.14665204}
   serializedVersion: 2
   m_Radius: 0.13544244
+--- !u!114 &-8306617973432428523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697633623401617296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0882e033801bfc47a458f9a66e9df91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
