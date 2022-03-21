@@ -10,8 +10,10 @@ public class red_button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (GameObject.FindGameObjectWithTag("box"))
+        Debug.Log("button colides with somthing");
+        if (collision.CompareTag("box"))
         {
+            Debug.Log("box colides with button");
             prest = true;
             animator.SetTrigger("open");
             Destroy(gameObject);
@@ -23,7 +25,7 @@ public class red_button : MonoBehaviour
         if (!OpenAndClose)
             return;
 
-        if (GameObject.FindGameObjectWithTag("box"))
+        if (collision.CompareTag("box"))
         {
             prest = false;
             animator.SetTrigger("close");
