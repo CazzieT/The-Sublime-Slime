@@ -503,6 +503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 444495931}
   - component: {fileID: 444495930}
+  - component: {fileID: 444495932}
   m_Layer: 0
   m_Name: Golv SPawn (3)
   m_TagString: Untagged
@@ -575,6 +576,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.754}
+--- !u!65 &444495932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444495929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 2.088635, z: 0.2}
+  m_Center: {x: 0.0000000031077265, y: -4.3556867, z: 0}
 --- !u!1 &555841514
 GameObject:
   m_ObjectHideFlags: 0
