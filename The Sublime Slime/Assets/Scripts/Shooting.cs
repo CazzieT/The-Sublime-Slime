@@ -8,6 +8,7 @@ public class Shoot : MonoBehaviour
     public Transform firePoint;
     public float bulletSpeed = 50;
 
+    // What direction the character is looking and will fire
     Vector2 lookDirection;
     float lookAngle;
 
