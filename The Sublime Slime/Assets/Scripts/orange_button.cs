@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class red_button : MonoBehaviour
+public class orange_button : MonoBehaviour
 {
     private bool prest = false;
     public Animator animator;

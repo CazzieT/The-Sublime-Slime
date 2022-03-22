@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8306617973432428523}
   m_Layer: 6
   m_Name: "\xF6ga"
-  m_TagString: box
+  m_TagString: eye
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
