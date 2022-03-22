@@ -11,10 +11,10 @@ public class orange_button : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //box pressing button
-        Debug.Log("button colides with somthing");
-        if (collision.CompareTag("box"))
+        
+        if (collision.CompareTag("eye"))
         {
-            Debug.Log("box colides with button");
+            
             prest = true;
             animator.SetTrigger("open");
             Destroy(gameObject);
@@ -26,7 +26,7 @@ public class orange_button : MonoBehaviour
         if (!OpenAndClose)
             return;
 
-        if (collision.CompareTag("box"))
+        if (collision.CompareTag("eye"))
         {
             prest = false;
             animator.SetTrigger("close");
