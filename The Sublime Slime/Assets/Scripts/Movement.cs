@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb;
     public float speed = 5f;
     Vector2 mousePosition;
+    private Animator animator;
+    private float move;
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -16,8 +18,11 @@ public class Movement : MonoBehaviour
 
     Vector3 worldPosition;
 
+   
+
     void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
         renderer = GetComponent<SpriteRenderer>();
@@ -50,6 +55,8 @@ public class Movement : MonoBehaviour
         }
 
         mousePosition = Input.mousePosition;
+
+        animator.SetFloat("move", Mathf.Abs(move));
 
     }
 

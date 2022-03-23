@@ -10,7 +10,7 @@ public class red_button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //box pressing button
+        //box pressing button to open door
         Debug.Log("button colides with somthing");
         if (collision.CompareTag("box"))
         {
@@ -21,6 +21,8 @@ public class red_button : MonoBehaviour
         }
     }
 
+
+    //closin door
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (!OpenAndClose)
