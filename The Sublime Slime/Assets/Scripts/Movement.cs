@@ -18,11 +18,14 @@ public class Movement : MonoBehaviour
 
     Vector3 worldPosition;
 
-   
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        
         rb = GetComponent<Rigidbody2D>();
 
         renderer = GetComponent<SpriteRenderer>();
@@ -53,6 +56,8 @@ public class Movement : MonoBehaviour
         {
             renderer.flipX = true;
         }
+
+        move = Input.GetAxis("Horizontal");
 
         mousePosition = Input.mousePosition;
 
