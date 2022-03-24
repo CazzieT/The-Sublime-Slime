@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
-        
+
         rb = GetComponent<Rigidbody2D>();
 
         renderer = GetComponent<SpriteRenderer>();
@@ -96,3 +96,4 @@ public class Movement : MonoBehaviour
     }
 
 }
+
