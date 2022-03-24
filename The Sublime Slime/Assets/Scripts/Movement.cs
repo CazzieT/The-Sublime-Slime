@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
     [SerializeField] public bool facingRight = true;
-    private SpriteRenderer renderer;
+    public new SpriteRenderer renderer;
 
     Vector3 worldPosition;
 
