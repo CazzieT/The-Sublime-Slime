@@ -3322,6 +3322,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7910472044187675170, guid: 4655b638d1af18d4c967f99241e21cde, type: 3}
   m_PrefabInstance: {fileID: 754349480}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1074348162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4095616184762697803, guid: f6e40a9b54ef34441a235d860b6aa638, type: 3}
+  m_PrefabInstance: {fileID: 4095616184790489033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1091827854
 GameObject:
   m_ObjectHideFlags: 0
@@ -6592,6 +6597,36 @@ Transform:
   m_Father: {fileID: 1674536993}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1995502796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1482086099021604784, guid: f6e40a9b54ef34441a235d860b6aa638, type: 3}
+  m_PrefabInstance: {fileID: 4095616184790489033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995502798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995502796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589ac0f813610f1439a0b9ef63794b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteSprite: {fileID: 21300000, guid: f656d7685442a6c4ea60fe28a700ab32, type: 3}
+  speed: 5
+  groundCheck: {fileID: 1074348162}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  facingRight: 1
+  renderer: {fileID: 1995502807}
+--- !u!212 &1995502807 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1482086099021604790, guid: f6e40a9b54ef34441a235d860b6aa638, type: 3}
+  m_PrefabInstance: {fileID: 4095616184790489033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2003720144
 GameObject:
   m_ObjectHideFlags: 0
@@ -7288,5 +7323,10 @@ PrefabInstance:
       propertyPath: piviot
       value: 
       objectReference: {fileID: 1543628209}
-    m_RemovedComponents: []
+    - target: {fileID: 4095616184281559150, guid: f6e40a9b54ef34441a235d860b6aa638, type: 3}
+      propertyPath: m_Distance
+      value: 1.9290221
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1482086099021604682, guid: f6e40a9b54ef34441a235d860b6aa638, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f6e40a9b54ef34441a235d860b6aa638, type: 3}
