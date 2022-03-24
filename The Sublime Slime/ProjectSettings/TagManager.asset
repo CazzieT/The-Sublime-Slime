@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - botton
   - box
+  - SpriteSwap
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - bullet
   - player
-  - 
+  - GrapplingJoint
   - 
   - 
   - 
