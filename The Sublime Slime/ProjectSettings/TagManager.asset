@@ -9,6 +9,7 @@ TagManager:
   - botton
   - box
   - eye
+  - SpriteSwap
   layers:
   - Default
   - TransparentFX

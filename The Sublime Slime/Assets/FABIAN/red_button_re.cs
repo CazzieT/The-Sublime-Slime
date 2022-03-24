@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class red_button_re : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private bool prest = false;
+    public Animator animator;
+    public bool OpenAndClose = true;
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        //box pressing button to open door
+        Debug.Log("button colides with somthing");
+        if (collision.CompareTag("box"))
+        {
+            Debug.Log("box colides with button");
+            prest = true;
+            animator.SetTrigger("open");
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    //closin door
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        
+        if (!OpenAndClose)
+            return;
+
+        if (collision.CompareTag("box"))
+        {
+            prest = false;
+            animator.SetTrigger("close");
+            Debug.Log("close");
+        }
     }
 }
+
