@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - botton
   - box
+  - eye
   layers:
   - Default
   - TransparentFX
